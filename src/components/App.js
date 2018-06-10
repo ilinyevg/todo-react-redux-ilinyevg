@@ -19,7 +19,7 @@ class AppComponent extends Component {
       <div>
         <Menu fixed='top'>
           <Container>
-            <Menu.Item as='h3' header className='WebsiteTitle'>
+            <Menu.Item as='h3' header className='Logo'>
               SimpleTask
             </Menu.Item>
             <Menu.Item position='right'>Hello, User!</Menu.Item>
@@ -29,14 +29,14 @@ class AppComponent extends Component {
         <Container className='MainContainer'>
             <Header as='h1'>Your tasks</Header>
             {(count === 0)?
-            <Card className="GreenHeader"> 
+            <Card className="Header Green"> 
               <Card.Content>
                 <Header as='h3'>All tasks completed</Header>
                 <p>Well done!</p>
               </Card.Content>
             </Card>
             :
-            <Card className="BlueHeader"> 
+            <Card className="Header Blue"> 
               <Card.Content>
                 <Header as='h3'>Complete all tasks</Header>
                 <p>You have: {count} active tasks</p>

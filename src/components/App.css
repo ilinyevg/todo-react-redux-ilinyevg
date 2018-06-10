@@ -1,4 +1,4 @@
-.WebsiteTitle {
+.Logo {
     color: #23a3f2 !important;
     font-weight: 900 !important;
 }
@@ -7,63 +7,95 @@
     margin-top: 130px;
 }
 
-.BlueHeader {
-    width: 100% !important;
-    background:#23a3f2 !important;
-    color: white;
-    font-weight: 100;
-}
-
-.BlueHeader h3{
-    color: white !important;
-}
-
-.GreenHeader {
-    width: 100% !important;
-    background:#2ac872 !important;
-    color: white;
-    font-weight: 100;
-}
-
-.GreenHeader h3{
-    color: white !important;
-}
-
-.Button {
-    color: #23a3f2 !important;
-    background: transparent !important;
-    /* max-width: 25%; */
-}
-
-.AddCard {
-    box-shadow:none !important;
-    -webkit-box-shadow:none !important;
-}
-
-.AddCard h2{
-    height: 60px;
-    line-height: 60px !important;
-    text-align: center;
-    color: #b4c8d3 !important;
-}
-
-.CardButtons {
-    height: 60px;
-    line-height: 60px !important;
-    text-align: center;
-}
-
 @media (min-height: 320px) {
     .footer {
       position: absolute !important;
       bottom: 0;
       width: 100%;
     }
-  }
+}
+
+.Header {
+    width: 100% !important;
+    color: white;
+    font-weight: 100;
+}
+
+.Header h3 {
+    color: white !important;
+}
+.Blue {
+    background:#23a3f2 !important;
+}
+
+.Green {
+    background:#2ac872 !important;
+}
+
+.White {
+    background:white !important;
+}
+
+.Button { 
+    background: transparent !important;
+}
+
+.BlueText {
+    color: #23a3f2 !important;
+}
+
+.WhiteText {
+    color: white !important;
+}
+
+.GreenText {
+    color: #2ac872 !important;
+}
+
+.RedText {
+    color: #d5614b !important;
+}
+
+.NoBorders {
+    box-shadow:none !important;
+    -webkit-box-shadow:none !important;
+}
+
+.AddTask h2 {
+    height: 60px;
+    line-height: 60px !important;
+    text-align: center;
+    color: #b4c8d3 !important;
+}
+
+.CardBox {
+    height: 60px;
+    line-height: 60px !important;
+    text-align: center;
+}
+
+.FontSize {
+    font-size: 16px !important;
+}
+
+.CardInput { 
+    max-width: 65%;
+    width: 65%;
+}
+
+.DarkTheme {
+    background-color:'#26465b';
+    color: 'white';
+}
+
+.HalfWidth {
+    width: 50%;
+}
 
 .card {
     min-width: 100% !important;
 }
+
 .dimmable {
     height: 60px !important;
     vertical-align: center;

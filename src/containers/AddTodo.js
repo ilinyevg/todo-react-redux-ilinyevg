@@ -14,7 +14,7 @@ class AddTodo extends Component {
     const { active } = this.state;
     const { onTaskAdd, dispatch } = this.props;
     let activeClass = ''
-    if (!active) {activeClass = 'AddCard'};
+    if (!active) {activeClass = 'NoBorders AddTask'};
 
     const onSubmit = e => {
       e.preventDefault()
@@ -33,7 +33,7 @@ class AddTodo extends Component {
             onMouseLeave={this.handleHide}
           >
             <Header as='h2'>+ Add Task</Header>
-            <Dimmer active={active} inverted style={{backgroundColor:'white'}}>
+            <Dimmer active={active} inverted className='White'>
               {TaskEditForm({onSubmit})}
             </Dimmer>
           </Dimmer.Dimmable>

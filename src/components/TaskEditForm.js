@@ -8,11 +8,11 @@ const TaskEditForm = ({ text = '', onSubmit }) => {
         <Input 
             id='tastText'
             floated='left' 
-            style={{maxWidth:'70%', fontSize:'14px', width:'70%' }}  
+            className='CardInput FontSize' 
             placeholder="Enter task name..."
             defaultValue={text}
         />
-        <Button className='Button' floated='right'>
+        <Button className='Button BlueText FontSize' floated='right'>
             Save
         </Button>
       </Form>
