@@ -1,0 +1,74 @@
+.WebsiteTitle {
+    color: #23a3f2 !important;
+    font-weight: 900 !important;
+}
+
+.MainContainer {
+    margin-top: 130px;
+}
+
+.BlueHeader {
+    width: 100% !important;
+    background:#23a3f2 !important;
+    color: white;
+    font-weight: 100;
+}
+
+.BlueHeader h3{
+    color: white !important;
+}
+
+.GreenHeader {
+    width: 100% !important;
+    background:#2ac872 !important;
+    color: white;
+    font-weight: 100;
+}
+
+.GreenHeader h3{
+    color: white !important;
+}
+
+.Button {
+    color: #23a3f2 !important;
+    background: transparent !important;
+    /* max-width: 25%; */
+}
+
+.AddCard {
+    box-shadow:none !important;
+    -webkit-box-shadow:none !important;
+}
+
+.AddCard h2{
+    height: 60px;
+    line-height: 60px !important;
+    text-align: center;
+    color: #b4c8d3 !important;
+}
+
+.CardButtons {
+    height: 60px;
+    line-height: 60px !important;
+    text-align: center;
+}
+
+@media (min-height: 320px) {
+    .footer {
+      position: absolute !important;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+
+.card {
+    min-width: 100% !important;
+}
+.dimmable {
+    height: 60px !important;
+    vertical-align: center;
+}
+
+.input input{
+    border: 0 !important;
+}
